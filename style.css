@@ -13,7 +13,7 @@ body{
     width: 300px;
     background-color: rgba(0, 0, 0, 0.823);
     padding: 5% 4%;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 #logo{
@@ -21,6 +21,9 @@ body{
     top: 7%;
     left:10%;
     max-width: 170px;
+    background-color: rgba(0, 0, 0, 0.73);
+    padding: 20px;
+    border-radius: 8px;
 }
 
 h1{
