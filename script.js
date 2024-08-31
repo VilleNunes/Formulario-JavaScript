@@ -10,9 +10,9 @@ function consultar()
     
     if(valorNome == "" || valorEmail == ""){
         alert("Preencha todos os campos");
+    }else{
+        document.getElementById('resultado').innerText = "Formulário preenchido Corretamente!!";
     }
-
-    
 }
 
 
