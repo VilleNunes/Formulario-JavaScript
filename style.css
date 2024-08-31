@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(assets/netflix.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.823);
+    padding: 5% 4%;
+    border-radius: 5px;
+}
+
+#logo{
+    position: absolute;
+    top: 7%;
+    left:10%;
+    max-width: 170px;
+}
+
+h1{
+    color: white;
+    margin-bottom: 1.5em;
+    font-weight: bold;
+}
+
+label{
+    color: white;
+}
+
+input{
+    background-color: rgba(0, 0, 0, 0.581) ;
+    border: solid rgba(255, 255, 255, 0.334) 1px ;
+    color: white;
+    padding: 18px;
+    margin-top: 10px;
+}
+
+input, button{
+    width: 100%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+p{
+    color: rgba(255, 0, 0, 0.66);
+    margin-bottom: 15px;
+    font-weight: bold;
+    text-align: center;
+    font-style: italic;
+}
+
+button{
+    background-color: rgb(226, 10, 20);
+    color: white;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover{
+    background: #d81515;
+    transform: scale(1.02);
+    transition:  0.8s;
+}
+
+footer{
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    bottom: 20px;
+}
